@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stellar Health - A Leading Hospital</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Google Fonts: Inter for a modern, professional look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header & Navigation -->
+    <header class="fixed-top bg-white bg-opacity-90 shadow px-3">
+        <nav class="navbar navbar-expand-md container">
+            <a class="navbar-brand nav-link-brand" href="#home">
+                <span>Stellar</span>Health
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Departments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#doctors">Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#news">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="position-relative hero-bg d-flex align-items-center text-center text-white py-5 px-4">
+            <div class="container my-auto z-1 position-relative animate-fadeInDown">
+                <h1 class="display-3 fw-bold lh-1 mb-4 text-shadow-sm">Exceptional Care, Every Time.</h1>
+                <p class="lead fw-light mb-5 text-shadow-sm">Your journey to wellness starts here with our compassionate
+                    and advanced medical team.</p>
+                <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+                    <a href="#contact" class="btn btn-primary pulse-animation">Book an Appointment</a>
+                    <a href="#services" class="btn btn-outline-white">Explore Departments</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section id="why-us" class="py-5 px-4 section-padding divider">
+            <div class="container my-5">
+                <h2 class="section-title">Why Choose Stellar Health?</h2>
+                <p class="section-subtitle">We are committed to providing a patient experience that is second to none.
+                </p>
+                <div class="row g-4">
+                    <!-- Feature Card -->
+                    <div class="col-md-4">
+                        <div class="card text-center p-4 h-100">
+                            <div class="bg-gray-50 p-4 rounded-circle d-inline-block mx-auto mb-4">
+                                <i class="fas fa-microscope fa-2x"></i>
+                            </div>
+                            <h3 class="h5 fw-bold custom-nav-color mb-2">Advanced Technology</h3>
+                            <p class="text-secondary">We utilize the latest medical equipment and diagnostic tools for
+                                precise and effective treatment.</p>
+                        </div>
+                    </div>
+                    <!-- Feature Card -->
+                    <div class="col-md-4">
+                        <div class="card text-center p-4 h-100">
+                            <div class="bg-gray-50 p-4 rounded-circle d-inline-block mx-auto mb-4">
+                                <i class="fas fa-user-md fa-2x"></i>
+                            </div>
+                            <h3 class="h5 fw-bold custom-nav-color mb-2">Expert Staff</h3>
+                            <p class="text-secondary">Our doctors and nurses are leaders in their fields, providing
+                                compassionate and professional care.</p>
+                        </div>
+                    </div>
+                    <!-- Feature Card -->
+                    <div class="col-md-4">
+                        <div class="card text-center p-4 h-100">
+                            <div class="bg-gray-50 p-4 rounded-circle d-inline-block mx-auto mb-4">
+                                <i class="fas fa-heart fa-2x"></i>
+                            </div>
+                            <h3 class="h5 fw-bold custom-nav-color mb-2">Patient-Centered Care</h3>
+                            <p class="text-secondary">We prioritize your comfort and well-being, tailoring treatment
+                                plans to your individual needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Departments Section -->
+        <section id="services" class="py-5 px-4 bg-light section-padding divider">
+            <div class="container my-5">
+                <h2 class="section-title">Our Medical Departments</h2>
+                <p class="section-subtitle">We provide a full spectrum of specialized medical services under one roof.
+                </p>
+                <div class="row g-4">
+                    <!-- Department Card -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card text-center p-5 h-100">
+                            <div class="bg-gray-50 p-4 rounded-circle d-inline-block mx-auto mb-4">
+                                <i class="fas fa-medkit fa-2x"></i>
+                            </div>
+                            <h3 class="h5 fw-bold custom-nav-color mb-2">Emergency Care</h3>
+                            <p class="text-sm text-secondary">24/7 care for all medical emergencies.</p>
+                        </div>
+                    </div>
+                    <!-- Department Card -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card text-center p-5 h-100">
+                            <div class="bg-gray-50 p-4 rounded-circle d-inline-block mx-auto mb-4">
+                                <i class="fas fa-heartbeat fa-2x"></i>
+                            </div>
+                            <h3 class="h5 fw-bold custom-nav-color mb-2">Cardiology</h3>
+                            <p class="text-sm text-secondary">Advanced diagnostics and heart treatments.</p>
+                        </div>
+                    </div>
+                    <!-- Department Card -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card text-center p-5 h-100">
+                            <div class="bg-gray-50 p-4 rounded-circle d-inline-block mx-auto mb-4">
+                                <i class="fas fa-bone fa-2x"></i>
+                            </div>
+                            <h3 class="h5 fw-bold custom-nav-color mb-2">Orthopedics</h3>
+                            <p class="text-sm text-secondary">Expert care for bone and joint health.</p>
+                        </div>
+                    </div>
+                    <!-- Department Card -->
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card text-center p-5 h-100">
+                            <div class="bg-gray-50 p-4 rounded-circle d-inline-block mx-auto mb-4">
+                                <i class="fas fa-child fa-2x"></i>
+                            </div>
+                            <h3 class="h5 fw-bold custom-nav-color mb-2">Pediatrics</h3>
+                            <p class="text-sm text-secondary">Specialized care for children and teens.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Doctors Section -->
+        <section id="doctors" class="py-5 px-4 section-padding">
+            <div class="container my-5">
+                <h2 class="section-title">Meet Our Doctors</h2>
+                <p class="section-subtitle">Our dedicated medical team is at the heart of our mission.</p>
+                <div class="row g-4">
+                    <!-- Doctor Card -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card text-center p-4 h-100">
+                            <img src="team (1).jpg" alt="Dr. Jane Doe"
+                                class="rounded-circle mx-auto mb-4 border border-3 border-secondary" width="128"
+                                height="128">
+                            <h3 class="h5 fw-bold custom-nav-color">Dr. Jane Doe</h3>
+                            <p class="fw-semibold mb-2">Chief Cardiologist</p>
+                            <p class="text-sm text-secondary">Leading expert in cardiovascular health with over 15 years
+                                of experience.</p>
+                        </div>
+                    </div>
+                    <!-- Doctor Card -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card text-center p-4 h-100">
+                            <img src="team (2).jpg" alt="Dr. John Smith"
+                                class="rounded-circle mx-auto mb-4 border border-3 border-secondary" width="128"
+                                height="128">
+                            <h3 class="h5 fw-bold custom-nav-color">Dr. John Smith</h3>
+                            <p class="fw-semibold mb-2">Senior Pediatrician</p>
+                            <p class="text-sm text-secondary">A compassionate doctor dedicated to the health and
+                                well-being of children.</p>
+                        </div>
+                    </div>
+                    <!-- Doctor Card -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card text-center p-4 h-100">
+                            <img src="team (3).jpg" alt="Dr. Emily White"
+                                class="rounded-circle mx-auto mb-4 border border-3 border-secondary" width="128"
+                                height="128">
+                            <h3 class="h5 fw-bold custom-nav-color">Dr. Emily White</h3>
+                            <p class="fw-semibold mb-2">Head of Surgery</p>
+                            <p class="text-sm text-secondary">Specializing in minimally invasive surgical techniques for
+                                faster recovery.</p>
+                        </div>
+                    </div>
+                    <!-- Doctor Card -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card text-center p-4 h-100">
+                            <img src="team (4).jpg" alt="Dr. Michael Lee"
+                                class="rounded-circle mx-auto mb-4 border border-3 border-secondary" width="128"
+                                height="128">
+                            <h3 class="h5 fw-bold custom-nav-color">Dr. Michael Lee</h3>
+                            <p class="fw-semibold mb-2">Neurologist</p>
+                            <p class="text-sm text-secondary">Expert in diagnosing and treating complex neurological
+                                conditions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section with Slider -->
+        <section id="testimonials" class="py-5 px-4 text-white section-padding divider">
+            <div class="container my-5">
+                <h2 class="section-title text-white mb-5">What Our Patients Say</h2>
+
+                <div class="testimonial-slider">
+                    <button class="slider-arrow prev" onclick="prevSlide()">&#10094;</button>
+
+                    <div class="testimonial-slide active">
+                        <p class="fs-5 fst-italic mb-3">"The care I received at Stellar Health was truly outstanding.
+                            The staff was attentive and compassionate, and the doctors were highly skilled. I couldn't
+                            have asked for a better experience."</p>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img src="team (1).jpg" alt="Sarah J." class="rounded-circle me-3" width="60" height="60">
+                            <div>
+                                <p class="fw-bold mb-0">Sarah J.</p>
+                                <small class="text-muted">Cardiac Patient</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <p class="fs-5 fst-italic mb-3">"From the moment I walked in, I felt at ease. The facility is
+                            modern, clean, and everyone from the front desk to the nurses was incredibly professional.
+                            Highly recommend!"</p>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img src="team (2).jpg" alt="Mark P." class="rounded-circle me-3" width="60" height="60">
+                            <div>
+                                <p class="fw-bold mb-0">Mark P.</p>
+                                <small class="text-muted">Orthopedic Patient</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <p class="fs-5 fst-italic mb-3">"The pediatric team was amazing with my son. They made him feel
+                            comfortable and explained everything in a way he could understand. We're so grateful for
+                            their care."</p>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img src="team (3).jpg" alt="Lisa T." class="rounded-circle me-3" width="60" height="60">
+                            <div>
+                                <p class="fw-bold mb-0">Lisa T.</p>
+                                <small class="text-muted">Parent</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <p class="fs-5 fst-italic mb-3">"After my surgery, the follow-up care was exceptional. The
+                            nurses checked on me regularly and the doctor was always available to answer my questions."
+                        </p>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img src="team (4).jpg" alt="Robert K." class="rounded-circle me-3" width="60" height="60">
+                            <div>
+                                <p class="fw-bold mb-0">Robert K.</p>
+                                <small class="text-muted">Surgical Patient</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="slider-arrow next" onclick="nextSlide()">&#10095;</button>
+                </div>
+
+                <div class="slider-nav">
+                    <div class="slider-dot active" onclick="goToSlide(0)"></div>
+                    <div class="slider-dot" onclick="goToSlide(1)"></div>
+                    <div class="slider-dot" onclick="goToSlide(2)"></div>
+                    <div class="slider-dot" onclick="goToSlide(3)"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News/Blog Section -->
+        <section id="news" class="py-5 section-padding divider">
+            <div class="container my-5">
+                <h2 class="section-title">Latest Health News</h2>
+                <p class="section-subtitle">Stay up-to-date with our latest articles and hospital news.</p>
+                <div class="row g-4">
+                    <!-- News Article 1 -->
+                    <div class="col-md-4">
+                        <div class="card p-0 h-100">
+                            <img src="slider11 (1).jpg" class="card-img-top w-100 h-100 object-fit-cover"
+                                alt="Innovations in Cardiac Care">
+                            <div class="card-body p-4">
+                                <p class="text-sm text-secondary mb-2">October 26, 2024</p>
+                                <h3 class="h5 fw-bold custom-nav-color mb-2">Innovations in Cardiac Care</h3>
+                                <p class="text-secondary mb-3">We are proud to announce our new state-of-the-art
+                                    cardiovascular imaging center...</p>
+                                <a href="#" class="text-decoration-none fw-semibold">Read More &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- News Article 2 -->
+                    <div class="col-md-4">
+                        <div class="card p-0 h-100">
+                            <img src="slider11 (2).jpg" class="card-img-top w-100 h-100 object-fit-cover"
+                                alt="Tips for a Healthy Winter">
+                            <div class="card-body p-4">
+                                <p class="text-sm text-secondary mb-2">October 20, 2024</p>
+                                <h3 class="h5 fw-bold custom-nav-color mb-2">Tips for a Healthy Winter</h3>
+                                <p class="text-secondary mb-3">Our pediatric team shares advice on keeping your family
+                                    healthy during the colder months...</p>
+                                <a href="#" class="text-decoration-none fw-semibold">Read More &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- News Article 3 -->
+                    <div class="col-md-4">
+                        <div class="card p-0 h-100">
+                            <img src="slider11 (3).jpg" class="card-img-top w-100 h-100 object-fit-cover"
+                                alt="Meet Our New Head of Surgery">
+                            <div class="card-body p-4">
+                                <p class="text-sm text-secondary mb-2">October 15, 2024</p>
+                                <h3 class="h5 fw-bold custom-nav-color mb-2">Meet Our New Head of Surgery</h3>
+                                <p class="text-secondary mb-3">We are thrilled to welcome Dr. Emily White to our team...
+                                </p>
+                                <a href="#" class="text-decoration-none fw-semibold">Read More &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action Section -->
+        <section class="py-5 px-4 bg-dark text-white text-center section-padding">
+            <div class="container my-5" style="max-width: 600px;">
+                <h2 class="h3 h1 fw-bold mb-3 text-white">Ready for your visit?</h2>
+                <p class="fs-5 fw-light mb-4">Book an appointment online or contact us directly. We're here to help.</p>
+                <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+                    <a href="#contact" class="btn btn-primary pulse-animation">Book an Appointment</a>
+                    <a href="#" class="btn btn-outline-white">View Clinic Hours</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-5 px-4 section-padding">
+            <div class="container my-5">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">We are here to answer your questions and assist you with your healthcare
+                    needs.</p>
+                <div class="row g-5 align-items-start">
+                    <div class="col-lg-6">
+                        <h3 class="h4 fw-bold custom-nav-color mb-4">Get in Touch</h3>
+                        <p class="d-flex align-items-center fs-5">
+                            <i class="far fa-envelope me-3"></i>
+                            info@stellarhealth.com
+                        </p>
+                        <p class="d-flex align-items-center fs-5">
+                            <i class="fas fa-phone-alt me-3"></i>
+                            +1 (123) 456-7890
+                        </p>
+                        <p class="d-flex align-items-start fs-5">
+                            <i class="fas fa-map-marker-alt me-3 mt-1"></i>
+                            123 Health Blvd, Wellness City, 12345
+                        </p>
+                    </div>
+                    <!-- Contact Form -->
+                    <div class="col-lg-6">
+                        <form action="#" class="space-y-4">
+                            <div class="mb-3">
+                                <input type="text" placeholder="Your Name"
+                                    class="form-control form-control-lg bg-light rounded-lg">
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" placeholder="Your Email"
+                                    class="form-control form-control-lg bg-light rounded-lg">
+                            </div>
+                            <div class="mb-3">
+                                <textarea placeholder="Your Message" rows="5"
+                                    class="form-control form-control-lg bg-light rounded-lg"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white-50 text-center py-4 px-4">
+        <p class="mb-0">&copy; 2024 Stellar Health. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript for scroll behavior and testimonial slider -->
+    <script src="script.js"></script>
+</body>
+
+</html>
